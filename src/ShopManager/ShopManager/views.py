@@ -4,6 +4,6 @@ from django.shortcuts import render
 
 def index(request):
     ctx = {
-        'comander':'com'
+        'comander':'Corde'
     }
     return render(request, "index.html", context=ctx)

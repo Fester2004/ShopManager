@@ -102,6 +102,6 @@ def main():
     programer = Personal('Anna', 23, 5, 2500, 'Programmer')
     print(f'Баланс магазину:{shop.balance}')
     pay_salary(shop,shop_assistant,loader,guardian,administrator)
-    buy_product = Products('Огірок',20,100,shop.balance)
+    buy_product = Products('Помідор',20,100,shop.balance)
 
 main()

@@ -9,7 +9,7 @@ class Shop(models.Model):
 # class Shop:
 #     def __init__(self, name, date_of_create, type_of_shop):
 #         self.name = name
-#         self.date_of_create = date_of_create
+#          --self.date_of_create = date_of_create
 #         self.balance = 50000
 #         self.type_of_shop = type_of_shop
 #
